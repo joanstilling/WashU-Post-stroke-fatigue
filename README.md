@@ -17,12 +17,11 @@ This repository contains R analysis code for a longitudinal resting-state fMRI s
 ├── 02_merge_and_demographics.R    # Merge REDCap + imaging data; demographics table
 ├── 03_mixed_models_FC.R           # Mixed-effects models: FC ~ vitality + GDSS
 ├── 04_mixed_models_ALFF_fALFF.R   # Mixed-effects models: ALFF/fALFF ~ vitality + GDSS
-├── 05_parcel_group_tvals_network.R        # Parcel-wise stroke vs control group differences (Network)
-├── 06_parcel_group_tvals_ROI.R        # Parcel-wise stroke vs control group differences (ROI)
-├── 07_figures.R                   # Figures: scatter plots, network heatmap, FC node strength surface maps
-├── 08_lesion_site_sensitivity.R   # Lesion site moderation analyses
-├── 09_lesion_size_moderation.R    # Lesion volume moderation analyses
-├── 10_supplementary_tables.R      # Supplementary Excel tables (S1–S5)
+├── 05_parcel_group_tvals.R        # Parcel-wise stroke vs control group differences 
+├── 06_figures.R                   # Figures: scatter plots, network heatmap, FC node strength surface maps
+├── 07_lesion_site_sensitivity.R   # Lesion site moderation analyses
+├── 08_lesion_size_moderation.R    # Lesion volume moderation analyses
+├── 09_supplementary_tables.R      # Supplementary Excel tables (S1–S5)
 └── README.md
 ```
 
